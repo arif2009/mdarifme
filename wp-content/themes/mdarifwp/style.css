@@ -1,0 +1,230 @@
+/*   
+Theme Name: ARIF Theme
+Theme URI: http://mdarif.me
+Description: This is my personal blog and site.
+Author: Md. Arifur Rahman (Sazal)
+Author URI: http://about.mdarif.me
+Version: 1.0
+*/
+
+// Start Coments & reply styling
+/*.commentlist{}
+ol.commentlist { color: #303030; list-style: none; }
+ol.commentlist li { }
+ol.commentlist li.alt { }
+ol.commentlist li.bypostauthor { }
+ol.commentlist li.byuser { }
+ol.commentlist li.comment-author-admin { }
+ol.commentlist li.comment { border-bottom: 1px dotted #666; padding: 10px; }
+ol.commentlist li.comment div.comment-author { }
+ol.commentlist li.comment div.vcard { }
+ol.commentlist li.comment div.vcard cite.fn { font-style: normal; }
+ol.commentlist li.comment div.vcard cite.fn a.url { }
+ol.commentlist li.comment div.vcard img.avatar { float:right; margin: 0 0 10px 10px; }
+ol.commentlist li.comment div.vcard img.avatar-32 { }
+ol.commentlist li.comment div.vcard img.photo { }
+ol.commentlist li.comment div.vcard span.says { }
+ol.commentlist li.comment div.commentmetadata { }
+ol.commentlist li.comment div.comment-meta { font-size: 10px; }
+ol.commentlist li.comment div.comment-meta a { color: #ccc; }
+ol.commentlist li.comment p { }
+ol.commentlist li.comment ul { }
+ol.commentlist li.comment div.reply { font-size: 11px; }
+ol.commentlist li.comment div.reply a { font-weight: bold; }
+ol.commentlist li.comment ul.children { list-style: none; margin: 10px 0 0; }
+ol.commentlist li.comment ul.children li { }
+ol.commentlist li.comment ul.children li.alt { }
+ol.commentlist li.comment ul.children li.bypostauthor { }
+ol.commentlist li.comment ul.children li.byuser { }
+ol.commentlist li.comment ul.children li.comment { }
+ol.commentlist li.comment ul.children li.comment-author-admin { }
+ol.commentlist li.comment ul.children li.depth-2 { border-left: 5px solid #555; margin: 0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-3 { border-left: 5px solid #999; margin: 0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-4 { border-left: 5px solid #bbb; margin: 0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-5 { }
+ol.commentlist li.comment ul.children li.odd { }
+ol.commentlist li.even { background: #fff; }
+ol.commentlist li.odd { background: #f6f6f6; }
+ol.commentlist li.parent { border-left: 5px solid #006AD4; }
+ol.commentlist li.thread-alt { }
+ol.commentlist li.thread-even { }
+ol.commentlist li.thread-odd { } 
+
+//Coments box styling
+#respond { 
+    background: #ececec;
+    padding:0 5px 0 5px;
+}
+
+.para{
+    text-align: justify;
+}
+.para a{
+    text-decoration:none;
+    color:#09F;
+    font: tahoma, Arial, Helvetica, sans-serif;
+    font-family: tahoma, Arial, Helvetica, sans-serif;
+}
+.para a:hover{
+    text-decoration:underline;
+    color:#09F;
+}
+
+// Highlight active form field 
+
+#respond input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+
+#respond input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+//Comments form
+#commentform{
+    overflow: hidden;
+    font-size: 13px;
+}
+#commentform label{
+    width: 35%;
+    float:left;
+}
+
+#commentform input, #commentform textarea{
+    border: 1px solid #dbd8d3;
+    width: 60%;
+    resize: vertical;
+}
+
+#commentform label.error{
+    font-size: 11px;
+    color: black;
+    margin-left: 35%;
+    background: #fbfcda url('images/cancel.png') no-repeat left;
+    border:1px solid #dbdbd3;
+    width:56.6%;
+    margin-top:1px;
+    padding:2px 2px 2px 20px;
+}
+
+#commentform input.captcha, #commentform input.sum {
+    display: inline;
+    text-align: center;
+}
+#commentform input.sum { 
+    width: 15%;
+}
+
+#commentform input.captcha{
+    width: 22.5%;
+}
+
+#submit {
+    font-family: Arial;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0px 1px 3px #666666;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    text-shadow: 1px 1px 3px #666666;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#006ad4), to(#003366));
+    background: -moz-linear-gradient(top, #006ad4, #003366);
+} 
+
+#submit:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#003366), to(#006ad4));
+  background: -moz-linear-gradient(top, #003366, #006ad4)
+}*/
+// End Coments & reply styling
+
+/* Start print media */
+@media print {
+
+.do-not-print { display: none; }
+#comments { page-break-before: always; }
+
+body { width: 100% !important; margin: 0 !important; padding: 0 !important; line-height: 1.4; word-spacing: 1.1pt; letter-spacing: 0.2pt; font-family: Garamond,"Times New Roman", serif; color: #000; background: none; font-size: 12pt; }
+h1,h2,h3,h4,h5,h6 { font-family: Helvetica, Arial, sans-serif; }
+h1 { font-size: 19pt; }
+h2 { font-size:17pt; }
+h3 { font-size:15pt; }
+h4,h5,h6 { font-size:12pt; }
+code { font: 10pt Courier, monospace; } 
+blockquote { margin: 1.3em; padding: 1em; }
+img { display: block; margin: 1em 0; }
+a img { border: none; }
+table { margin: 1px; text-align:left; }
+th { border-bottom: 1px solid #333;  font-weight: bold; }
+td { border-bottom: 1px solid #333; }
+th, td { padding: 4px 10px 4px 0; }
+caption { background: #fff; margin-bottom: 2em; text-align: left; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; } 
+a { text-decoration: none; color: black; }
+	
+} /* END print media */
+
+/*Start Archive design*/
+.widget-archive{padding: 0 0 40px 0;}
+.widget-archive ul {margin: 0;list-style: none;}
+.widget-archive li {margin: 0; padding: 0;list-style: none; border-bottom: 1px solid #d6d7d7;}
+.widget-archive li:last-child{border-bottom: none;}
+.widget-archive li a{ border-left: 1px solid #d6d7d7; padding: 5px 0 3px 10px; margin: 0 0 0 55px; display: block;}
+.widget-archive li.archive-year{float: left; font-family: Helvetica, Arial, san-serif; padding: 5px 0 3px 10px; color:#ed1a1c;}
+.widget-archive:last-child li.archive-year{border-bottom: none;}
+.widget-archive li.archive-year a{color:#ed1a1c; margin: 0; border: 0px; padding: 0;}
+/*End Archive design*/
+
+/*Start Sidebar*/
+#sidebar .current-post,#sidebar .current-cat{
+    background: url('images/arrow.png') no-repeat 0 .55em;
+}
+#sidebar .current-post a,#sidebar .current-cat a{
+    color: #EF5548;
+}
+/*End Sidebar*/
+
+/*Start Youtube channel design*/
+#player {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    background: gray;
+    position: relative;
+    border: solid 2px gray;
+}
+
+.youtube .carousel {
+    width: 20%;
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    right: 0px;
+    z-index: 3;
+}
+
+.youtube .thumbnail {
+    margin: 2px;
+    width: 80%;
+    border: 1px solid black;  
+}
+
+.youtube iframe.player {
+    width: 80%;
+    height: 350px;  
+    overflow: auto;
+    border: 0;
+}
+/*End youtube channel design*/

@@ -1,0 +1,2 @@
+[05-May-2015 20:21:28 UTC] PHP Fatal error:  Call to undefined function get_post_meta() in /home/mdarifme/public_html/wp-content/plugins/disqus-comment-system/comments.php on line 3
+[05-May-2015 20:21:28 UTC] PHP Fatal error:  Call to undefined function get_post_meta() in /home/mdarifme/public_html/wp-content/plugins/disqus-comment-system/comments.php on line 3

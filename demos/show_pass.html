@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>jQuery: Show Password without any plugin</title>
+<script type="text/javascript" src='http://code.jquery.com/jquery-latest.min.js'></script>
+<style type="text/css">
+body
+{
+    padding: 20px;
+    font-family: Calibri;
+    font-size:12pt;
+}
+div
+{
+    border: 2px solid Green;
+    width : 300px;
+    padding: 20px;
+}
+input
+{
+     font-family: Calibri;
+    font-size:12pt;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#txthdnPassword').hide();
+    $('#txthdnPassword').attr('readonly','readonly');
+    $('#txtPassword').blur(function() {
+        $('#txthdnPassword').val($(this).val());
+    });
+
+    $('#chkShow').change(function() {
+        var isChecked = $(this).prop('checked');
+        if (isChecked) {
+            $('#txtPassword').hide();
+            $('#txthdnPassword').show();
+        }
+        else {
+            $('#txtPassword').show();
+            $('#txthdnPassword').hide();
+        }
+    });
+});
+</script>
+</head>
+<body>
+<div>
+UserName: <input type="text" id="txtUserName" />
+<br/><br/>
+Password:&nbsp; <input type="password" id="txtPassword" />
+<input type="text" id="txthdnPassword" style='display:none;' />
+<br/><br/>
+<input type="checkbox" id="chkShow"/>&nbsp;Show Password 
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+[01-May-2015 15:19:38 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/mdarifme/public_html/wp-content/plugins/hello.php on line 60
+[06-May-2015 00:07:28 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/mdarifme/public_html/wp-content/plugins/hello.php on line 60
+[06-May-2015 04:02:06 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/mdarifme/public_html/wp-content/plugins/hello.php on line 60
+[17-May-2015 21:49:00 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/mdarifme/public_html/wp-content/plugins/hello.php on line 60
